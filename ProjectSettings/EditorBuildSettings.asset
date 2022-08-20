@@ -4,6 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 110d100d4627ab443bb37ec016568721, type: 2}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FPS_Test/FPS_Test.unity
+    guid: bbe73bce0d5962d4887a764c97739dc0
+  m_configObjects: {}
