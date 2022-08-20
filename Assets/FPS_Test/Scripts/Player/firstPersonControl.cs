@@ -41,8 +41,8 @@ public class firstPersonControl : MonoBehaviour
 
         //mouseLook = gameObject.GetComponent<MouseLook>();
         cc = gameObject.GetComponent<CharacterController>();
-        playerInput = GetComponent<PlayerInput>();
-
+        playerInput = gameObject.GetComponent<PlayerInput>();
+        Debug.Log(playerInput);
         cc.center = new Vector3(0, 1, 0);
         cc.height = 2;
         cc.radius = 0.3f;
@@ -67,6 +67,8 @@ public class firstPersonControl : MonoBehaviour
 
     void Inputs()
     {
+        Debug.Log(inputX +" " + inputZ);
+        // playerInput.actions.
         inputX = playerInputActions.Player.Movement.ReadValue<Vector2>().x;
         inputZ = playerInputActions.Player.Movement.ReadValue<Vector2>().y;
     }
