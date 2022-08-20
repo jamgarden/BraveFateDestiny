@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FPS_Test/FPS_Test.unity
     guid: bbe73bce0d5962d4887a764c97739dc0
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 84e243c8fe7864c4e9fa1032f2ebe344
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 99c5be41395f1114b9765b71576e14d2
+  - enabled: 1
+    path: Assets/Scenes/WinGame.unity
+    guid: 453f6c54be907e4428e4fff2e6f654cf
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 6fed938693f19fc4cb9831c436e649b8
   m_configObjects: {}
