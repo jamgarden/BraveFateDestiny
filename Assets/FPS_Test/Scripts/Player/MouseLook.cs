@@ -50,7 +50,7 @@ public class MouseLook : MonoBehaviour
     {
         mouseX = playerInputActions.Player.MouseX.ReadValue<float>() * mouseSensitivity * Time.deltaTime;
         mouseY = playerInputActions.Player.MouseY.ReadValue<float>() * mouseSensitivity * Time.deltaTime;
-
+        Debug.Log(mouseX);
         transform.Rotate(Vector3.up * mouseX);
     }
 
