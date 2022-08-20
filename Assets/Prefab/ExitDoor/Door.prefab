@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 923816415535645639}
   - component: {fileID: 2111601519203455}
   - component: {fileID: 1606157849240990328}
-  - component: {fileID: 7317933002825020393}
   - component: {fileID: 3655873990711360680}
+  - component: {fileID: 7317933002825020393}
   - component: {fileID: 1473791510553391642}
   m_Layer: 0
   m_Name: Door
@@ -86,6 +86,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3655873990711360680
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5372196598381775998}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3, y: 1.63, z: 3.87}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &7317933002825020393
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98,19 +111,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &3655873990711360680
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5372196598381775998}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.36, y: 1.15, z: 3.78}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1473791510553391642
 MonoBehaviour:

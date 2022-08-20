@@ -13,7 +13,7 @@ public class MouseLook : MonoBehaviour
     private PlayerInput playerInput;
     private PlayerInputActions playerInputActions;
 
-    [SerializeField] bool canTurn = true;
+    [SerializeField]public bool canTurn = true;
     private float mouseX, mouseY;
     private float xRotation;
 
@@ -50,7 +50,6 @@ public class MouseLook : MonoBehaviour
     {
         mouseX = playerInputActions.Player.MouseX.ReadValue<float>() * mouseSensitivity * Time.deltaTime;
         mouseY = playerInputActions.Player.MouseY.ReadValue<float>() * mouseSensitivity * Time.deltaTime;
-        Debug.Log(mouseX);
         transform.Rotate(Vector3.up * mouseX);
     }
 

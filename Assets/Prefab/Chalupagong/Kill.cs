@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Kill : MonoBehaviour
 {
@@ -14,5 +15,10 @@ public class Kill : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other) {
+        Debug.Log("You got eaten by the chalupagong");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
