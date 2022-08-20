@@ -1,14 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class WinGame : MonoBehaviour
+public class EventTest : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -17,8 +16,11 @@ public class WinGame : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other) {
-        Debug.Log(other);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+    public void EventTestOne()
+    {
+        Debug.Log("Hello World");
     }
+
+    
 }

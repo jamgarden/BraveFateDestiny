@@ -11,12 +11,12 @@ public class firstPersonControl : MonoBehaviour
     private PlayerInputActions playerInputActions;
 
     [Header("Player's Features")]
-    [SerializeField] private bool canMove = true;
+    [SerializeField] public bool canMove = true;
     [SerializeField] private float walkingSpeed = 3.2f;
     [SerializeField] private float runningSpeed = 4.6f;
     [Space]
     [SerializeField] private float jumpingForce = 1.4f;
-    [SerializeField] private bool canJump = true;
+    [SerializeField] public bool canJump = true;
 
     private float inputX, inputZ;
     private float movingSpeed;
@@ -37,12 +37,12 @@ public class firstPersonControl : MonoBehaviour
 
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
 
         //mouseLook = gameObject.GetComponent<MouseLook>();
         cc = gameObject.GetComponent<CharacterController>();
         playerInput = gameObject.GetComponent<PlayerInput>();
-        Debug.Log(playerInput);
+        // Debug.Log(playerInput);
         cc.center = new Vector3(0, 1, 0);
         cc.height = 2;
         cc.radius = 0.3f;
@@ -67,7 +67,7 @@ public class firstPersonControl : MonoBehaviour
 
     void Inputs()
     {
-        Debug.Log(inputX +" " + inputZ);
+        // Debug.Log(inputX +" " + inputZ);
         // playerInput.actions.
         inputX = playerInputActions.Player.Movement.ReadValue<Vector2>().x;
         inputZ = playerInputActions.Player.Movement.ReadValue<Vector2>().y;
