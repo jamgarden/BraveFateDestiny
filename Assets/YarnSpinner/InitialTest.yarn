@@ -6,10 +6,15 @@ Narrator: This is a test.
 ===
 title: starttwo
 ---
+<<Steve_talk>>
 Steve Seagull: WELCOME TO CHALUPAGONG!
+<<Mub_talk>>
 Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito!
+<<stop_talk>>
 Hero: Hey, can I get a burrito with everything on it?
+<<Mub_talk>>
 Mubazir:  Sure, here ya go, and make sure you eat every last bite! It would be a shame to waste this tasty goodness.
+<<stop_talk>>
     -> Take the burrito...
 Hero: Uh... Okay?
 Hero: ...
