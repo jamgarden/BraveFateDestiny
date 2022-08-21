@@ -4,3 +4,24 @@ tags:
 Narrator: Hello world.
 Narrator: This is a test.
 ===
+title: starttwo
+---
+Steve Seagull: WELCOME TO CHALUPAGONG!
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito!
+Hero: Hey, can I get a burrito with everything on it?
+Mubazir:  Sure, here ya go, and make sure you eat every last bite! It would be a shame to waste this tasty goodness.
+    -> Take the burrito...
+Hero: Uh... Okay?
+Hero: ...
+Hero: Oh man, this is so good, but I'm just too full. I can't finish it.
+Mubazir: A long time ago, people of a more civilized world created the society we live in today. The bad seeds that surround us today were but a few rascals having harmless fun. Still, this little guy, who just couldn't do as told, wouldn't finish his food, and would throw it off the window saying he did. One night, the food in the backyard received half a burrito, which over the night... began to grow. Years later, from the ground, the burrito broke free of its chains, and chased its creator. No one ever heard from him again...
+===
+// title: welcome
+// ---
+// Steve Seagull: WELCOME TO CHALUPAGONG!
+// Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
+// Hero: I'll have a burrito with everything on it.
+// Mubazir: Want anything special with that? We have our special pickled Jalapeños.
+//     -> Jalapeños sounds great!
+//     -> Nah, this is perfect, thanks! I don't like anything spicy.
+//     -> Jalapeños suck! Slather it in that creamy white 
