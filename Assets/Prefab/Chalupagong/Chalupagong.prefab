@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 345181477721716827}
   - component: {fileID: 4223356787784713745}
   - component: {fileID: 6244987838571347264}
+  - component: {fileID: 7253951659698120947}
   m_Layer: 0
   m_Name: Chalupagong
   m_TagString: Untagged
@@ -100,7 +101,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.86, z: 0}
 --- !u!114 &345181477721716827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,6 +114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7adf3ba5296ce3e4c906d82f1f492a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
 --- !u!136 &4223356787784713745
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -139,3 +141,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71ae08bd29ec39147bdf8b3c7a1cea20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!195 &7253951659698120947
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478776489500283701}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 1
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

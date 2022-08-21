@@ -9,6 +9,7 @@ public class Stint : MonoBehaviour
     public GameObject Mubazir;
     public GameObject Steve;
     public DialogueRunner dialogueRunner;
+    public GameObject Backdrop;
 
 
     public void Awake() {
@@ -43,6 +44,13 @@ public class Stint : MonoBehaviour
         Mubazir.GetComponent<Animator>().SetInteger("Bounces", 1);
         Steve.GetComponent<Animator>().SetInteger("Bounces", 1);
         Debug.Log("Both moving");
+    }
+
+    public void ClearScreen()
+    {
+        Mubazir.SetActive(false);
+        Steve.SetActive(false);
+        Backdrop.SetActive(false);
     }
 
 }
