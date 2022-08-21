@@ -31,6 +31,7 @@ public class Manager_Game : MonoBehaviour
 
     public void GamePlay()
     {
+        Debug.Log("Hello testing");
         SceneManager.LoadScene("Gameplay");
     }
 
