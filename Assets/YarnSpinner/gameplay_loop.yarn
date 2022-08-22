@@ -1,7 +1,32 @@
-﻿title: gameplay_loop
+﻿title: prelude
+---
+<<declare $looped = 1 as number>>
+<<jump gameplay_loop>>
+===
+title: gameplay_loop
 tags:
 ---
 
+<<if $looped <= 1>>
+    <<jump jalepenons>>
+<<elseif $looped == 2>>
+    <<jump chili>>
+<<elseif $looped == 3>>
+    <<jump horchata>>
+<<elseif $looped == 4>>
+    <<jump beans>>
+<<elseif $looped == 5>>
+    <<jump guacamole>>
+<<elseif $looped == 6>>
+    <<jump habaneros>>
+<<elseif $looped == 7>>
+    <<jump nachos>>
+<<elseif $looped == 8>>
+    <<jump romaine>>
+<<elseif $looped == 8>>
+    <<set $looped = 1>>
+    <<jump jalepenons>>
+<<endif>>
 ===
 title: jalepenons
 ---
@@ -19,10 +44,12 @@ Mubazir: Want anything special with that? We have our special pickled Jalapeñon
 title: jalepenons_answer1
 ---
 Mubazir: Great Choice! Now Chalupagong won't be jalapeño business. When there's a fork, always choose the jalapeno.
+<<BumpLoop>>
 ===
 title: jalepenons_answer2
 ---
 Mubazir: Suit yourself. I’ll see you again soon. 
+<<BumpLoop>>
 
 ===
 title: jalepenons_answer3
@@ -30,6 +57,7 @@ title: jalepenons_answer3
 Mubazir: Steve.
 Steve Seagull: You’re gonna feel that later buddy!
 Mubazir: Please Steve, they just ordered…
+<<BumpLoop>>
 ===
 title: chili
 ---
@@ -49,14 +77,17 @@ Mubazir: Steve, you’re not even trying anymore.
 title: chili_answer1
 ---
 Mubazir: Coming right up! Great choice. The only way to escape Chalupagong is to grab a big ripe tomato and throw it in his face. Tomatoes are your friend.
+<<BumpLoop>>
 ===
 title: chili_answer2
 ---
 Mubazir: Same ol same ol..you must like this place.
+<<BumpLoop>>
 ===
 title: chili_answer3
 ---
 Mubazir: I..just bought this book. I thought it was good. 
+<<BumpLoop>>
 ===
 title: horchata
 ---
@@ -78,15 +109,18 @@ Mubazir: Nachos, huh? Okay... fine.
 Steve Seagull: That choice is gonna come back to bite you in the–
 Mubazir: Steve! Language!
 Steve Seagull: SQUACK! Literally.
+<<BumpLoop>>
 ===
 title: horchata_answer2
 ---
 Mubazir: That’s my boy! Here, take one on me. And I’ll give you another freebie:
 Mubazir: Never trust a lemon.
+<<BumpLoop>>
 ===
 title: horchata_answer3
 ---
 Mubazir: Our famous "Wild Wild Zest" it is, then.
+<<BumpLoop>>
 ===
 title: beans
 ---
@@ -106,15 +140,18 @@ title: beans_answer1
 ---
 Mubazir: Another one averse to eggs? Steve will approve, I guess.
 Steve Seagull: SQUACK!
+<<BumpLoop>>
 ===
 title: beans_answer2
 ---
 Mubazir: How about a different secret?
 Mubazir: Here it is: those beans will keep Chalupagong far away. Here’s your burrito!
+<<BumpLoop>>
 ===
 title: beans_answer3
 ---
 Mubazir: One burrito, solo.
+<<BumpLoop>>
 
 ===
 title: guacamole
@@ -135,14 +172,17 @@ Mubazir: Want anything special with that? I got some avocados, just a warning, t
 title: guacamole_answer1
 ---
 Mubazir: Your loss. One boring burrito, coming right up.
+<<BumpLoop>>
 ===
 title: guacamole_answer2
 ---
 Mubazir: Muchas gracias! I thought I would never get rid of them. Your girlfriend doesn’t want to kiss you after you eat them, and neither does Chalupagong.
+<<BumpLoop>>
 ===
 title: guacamole_answer3
 ---
 Mubazir: Deja vu much?
+<<BumpLoop>>
 ===
 title: habaneros
 ---
@@ -160,16 +200,19 @@ Mubazir: Want anything special with that? Our habaneros are so hot, they’ll wa
 title: habaneros_answer1
 ---
 Mubazir: Perfect! Here’s a nice warm cup. 
+<<BumpLoop>>
 ===
 title: habaneros_answer2
 ---
 Mubazir: Salsa? You are trying to drown your food? 
+<<BumpLoop>>
 ===
 title: habaneros_answer3
 ---
 Mubazir: Maybe so, but Steve likes me. 
 STEVE SEAGULL: I hope you freeze to death!
 Mubazir: Cool it Steve! He knows it's wrong.
+<<BumpLoop>>
 ===
 title: nachos
 ---
@@ -187,15 +230,18 @@ Mubazir: Want anything special with that? We got our special 2 for 1 relation-ch
 title: nachos_answer1
 ---
 Mubazir: You cheddar believe I will! Cheddar is better.
+<<BumpLoop>>
 ===
 title: nachos_answer2
 ---
 Mubazir: Aw, come on. You don't gotta be mean.
+<<BumpLoop>>
 ===
 title: nachos_answer3
 ---
 Mubazir: <i>Fries!?</i> Where do you think you are? McCrapnolds?
 Mubazir: I should spit in your burrito!
+<<BumpLoop>>
 ===
 title: romaine
 ---
@@ -215,12 +261,15 @@ Mubazir: If you don’t like our food, you have the right to romaine silent.
 title: romaine_answer1
 ---
 Mubazir: Lettuce celebrate your wise choice.
+<<BumpLoop>>
 ===
 title: romaine_answer2
 ---
 Mubazir: Watch it, buddy.
+<<BumpLoop>>
 ===
 title: romaine_answer3
 ---
 Mubazir: Whatever.
+<<BumpLoop>>
 ===

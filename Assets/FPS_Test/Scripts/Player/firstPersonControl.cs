@@ -54,6 +54,12 @@ public class firstPersonControl : MonoBehaviour
         wantedHeight = orginalHeight / 2;
     }
 
+    public void LockItUp()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+
+    }
+
     void Update()
     {
         if (canMove)
