@@ -30,246 +30,246 @@ tags:
 ===
 title: jalepenons
 ---
-Steve Seagull: WELCOME TO CHALUPAGONG!
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that? We have our special pickled Jalapeñons.
-    -> Jalapeñons sound great!
+Steve Seagull: WELCOME TO CHALUPAGONG! #line:0397a13 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:059c18e 
+Hero: I’ll have a burrito with everything on it. #line:02bb4ed 
+Mubazir: Want anything special with that? We have our special pickled Jalapeñons. #line:01ecc2c 
+    -> Jalapeñons sound great! #line:06b44f6 
         <<jump jalepenons_answer1>>
-    -> Nah, this is perfect, thanks! I don’t like anything spicy.
+    -> Nah, this is perfect, thanks! I don’t like anything spicy. #line:012efc5 
         <<jump jalepenons_answer2>>
-    -> Jalapeñons suck! Slather it in that creamy white sauce.
+    -> Jalapeñons suck! Slather it in that creamy white sauce. #line:048ac15 
         <<jump jalepenons_answer3>>
 ===
 title: jalepenons_answer1
 ---
-Mubazir: Great Choice! Now Chalupagong won't be jalapeño business. When there's a fork, always choose the jalapeno.
+Mubazir: Great Choice! Now Chalupagong won't be jalapeño business. When there's a fork, always choose the jalapeno. #line:049882b 
 <<BumpLoop>>
 ===
 title: jalepenons_answer2
 ---
-Mubazir: Suit yourself. I’ll see you again soon. 
+Mubazir: Suit yourself. I’ll see you again soon.  #line:0298fe1 
 <<BumpLoop>>
 
 ===
 title: jalepenons_answer3
 ---
-Mubazir: Steve.
-Steve Seagull: You’re gonna feel that later buddy!
-Mubazir: Please Steve, they just ordered…
+Mubazir: Steve. #line:081e828 
+Steve Seagull: You’re gonna feel that later buddy! #line:0c014e6 
+Mubazir: Please Steve, they just ordered… #line:061ce51 
 <<BumpLoop>>
 ===
 title: chili
 ---
-Steve Seagull: WELCOME TO CHALUPAGONG! 
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that? Oh yeah, check out the new sign. Whoever painted that was chili con carne-artist! Get it! Haha!!
-Steve Seagull: Chalupagong’s gonna get ya!
-Mubazir: Steve, you’re not even trying anymore.
-    -> Ha yeah! Call me the newest member of the Hot Chili Peppers!! 1 Cup of chili on the side.
+Steve Seagull: WELCOME TO CHALUPAGONG!  #line:00c7a35 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:05b3036 
+Hero: I’ll have a burrito with everything on it. #line:06733b8 
+Mubazir: Want anything special with that? Oh yeah, check out the new sign. Whoever painted that was chili con carne-artist! Get it! Haha!! #line:0f8309b 
+Steve Seagull: Chalupagong’s gonna get ya! #line:0748671 
+Mubazir: Steve, you’re not even trying anymore. #line:0d8d96c 
+    -> Ha yeah! Call me the newest member of the Hot Chili Peppers!! 1 Cup of chili on the side. #line:0137831 
         <<jump chili_answer1>>
-    -> No thanks, I’ll just have the burrito.
+    -> No thanks, I’ll just have the burrito. #line:0b15367 
         <<jump chili_answer2>>
-    -> My dad makes better jokes than you. Find a new joke book.
+    -> My dad makes better jokes than you. Find a new joke book. #line:0600ca2 
         <<jump chili_answer3>>
 ===
 title: chili_answer1
 ---
-Mubazir: Coming right up! Great choice. The only way to escape Chalupagong is to grab a big ripe tomato and throw it in his face. Tomatoes are your friend.
+Mubazir: Coming right up! Great choice. The only way to escape Chalupagong is to grab a big ripe tomato and throw it in his face. Tomatoes are your friend. #line:0f4130e 
 <<BumpLoop>>
 ===
 title: chili_answer2
 ---
-Mubazir: Same ol same ol..you must like this place.
+Mubazir: Same ol same ol..you must like this place. #line:0bd9a03 
 <<BumpLoop>>
 ===
 title: chili_answer3
 ---
-Mubazir: I..just bought this book. I thought it was good. 
+Mubazir: I..just bought this book. I thought it was good.  #line:01707e8 
 <<BumpLoop>>
 ===
 title: horchata
 ---
-Steve Seagull: WELCOME TO CHALUPAGONG!
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that?
-Mubazir: Oh! Did you see what that lady was wearing? She had plenty of horchata!
-    -> Yeah! A side of nachos. Extra cheese.
+Steve Seagull: WELCOME TO CHALUPAGONG! #line:0bc529c 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:0d60404 
+Hero: I’ll have a burrito with everything on it. #line:03bde4e 
+Mubazir: Want anything special with that? #line:08bb56e 
+Mubazir: Oh! Did you see what that lady was wearing? She had plenty of horchata! #line:0e5236d 
+    -> Yeah! A side of nachos. Extra cheese. #line:057efbc 
         <<jump horchata_answer1>>
-    -> Ooh, I did! And I'm looking to take a sip.
+    -> Ooh, I did! And I'm looking to take a sip. #line:04fdfee 
         <<jump horchata_answer2>>
-    -> I’m allergic to cinnamon, I’ll take lemonade.
+    -> I’m allergic to cinnamon, I’ll take lemonade. #line:0527b74 
         <<jump horchata_answer3>>
 ===
 title: horchata_answer1
 ---
-Mubazir: Nachos, huh? Okay... fine.
-Steve Seagull: That choice is gonna come back to bite you in the–
-Mubazir: Steve! Language!
-Steve Seagull: SQUACK! Literally.
+Mubazir: Nachos, huh? Okay... fine. #line:0561f16 
+Steve Seagull: That choice is gonna come back to bite you in the– #line:0758200 
+Mubazir: Steve! Language! #line:0e8d0c4 
+Steve Seagull: SQUACK! Literally. #line:076a630 
 <<BumpLoop>>
 ===
 title: horchata_answer2
 ---
-Mubazir: That’s my boy! Here, take one on me. And I’ll give you another freebie:
-Mubazir: Never trust a lemon.
+Mubazir: That’s my boy! Here, take one on me. And I’ll give you another freebie: #line:0891c2c 
+Mubazir: Never trust a lemon. #line:0592e02 
 <<BumpLoop>>
 ===
 title: horchata_answer3
 ---
-Mubazir: Our famous "Wild Wild Zest" it is, then.
+Mubazir: Our famous "Wild Wild Zest" it is, then. #line:04655e4 
 <<BumpLoop>>
 ===
 title: beans
 ---
-Steve Seagull: WELCOME TO CHALUPAGONG!
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that? Between you and me the huevos rancheros are a secret recipe.
-Mubazir: Guy before me got fired because he spilled the beans.
-    -> I hate huevos rancheros, anyway.
+Steve Seagull: WELCOME TO CHALUPAGONG! #line:09db34c 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:01bee2a 
+Hero: I’ll have a burrito with everything on it. #line:05b38b9 
+Mubazir: Want anything special with that? Between you and me the huevos rancheros are a secret recipe. #line:08d1fd4 
+Mubazir: Guy before me got fired because he spilled the beans. #line:06dc677 
+    -> I hate huevos rancheros, anyway. #line:028c2f9 
         <<jump beans_answer1>>
-    -> You can tell me the secret. I won’t spill the beans. I promise.
+    -> You can tell me the secret. I won’t spill the beans. I promise. #line:0aaabdb 
         <<jump beans_answer2>>
-    -> No thanks, I’ll just have the burrito.
+    -> No thanks, I’ll just have the burrito. #line:0d9d0a2 
         <<jump beans_answer3>>
 ===
 title: beans_answer1
 ---
-Mubazir: Another one averse to eggs? Steve will approve, I guess.
-Steve Seagull: SQUACK!
+Mubazir: Another one averse to eggs? Steve will approve, I guess. #line:00ac7c4 
+Steve Seagull: SQUACK! #line:09bec1e 
 <<BumpLoop>>
 ===
 title: beans_answer2
 ---
-Mubazir: How about a different secret?
-Mubazir: Here it is: those beans will keep Chalupagong far away. Here’s your burrito!
+Mubazir: How about a different secret? #line:0bf1ab0 
+Mubazir: Here it is: those beans will keep Chalupagong far away. Here’s your burrito! #line:0b68fd6 
 <<BumpLoop>>
 ===
 title: beans_answer3
 ---
-Mubazir: One burrito, solo.
+Mubazir: One burrito, solo. #line:0438cc5 
 <<BumpLoop>>
 
 ===
 title: guacamole
 ---
-STEVE SEAGULL: WELCOME TO CHALUPAGONG! 
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that? I got some avocados, just a warning, they’re a little guacamoldy…
-    -> Why would I want anything moldy? That's disgusting. No.
+STEVE SEAGULL: WELCOME TO CHALUPAGONG!  #line:080e043 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:04249f0 
+Hero: I’ll have a burrito with everything on it. #line:094f08a 
+Mubazir: Want anything special with that? I got some avocados, just a warning, they’re a little guacamoldy… #line:0456704 
+    -> Why would I want anything moldy? That's disgusting. No. #line:09c278b 
         <<jump guacamole_answer1>>
-    -> Only if you add some onions. I don’t want to make it guac-ward.
+    -> Only if you add some onions. I don’t want to make it guac-ward. #line:014ad04 
         <<jump guacamole_answer2>>
-    -> No thanks, I’ll just have the burrito.
+    -> No thanks, I’ll just have the burrito. #line:062798f 
         <<jump guacamole_answer3>>
 
 
 ===
 title: guacamole_answer1
 ---
-Mubazir: Your loss. One boring burrito, coming right up.
+Mubazir: Your loss. One boring burrito, coming right up. #line:09540f1 
 <<BumpLoop>>
 ===
 title: guacamole_answer2
 ---
-Mubazir: Muchas gracias! I thought I would never get rid of them. Your girlfriend doesn’t want to kiss you after you eat them, and neither does Chalupagong.
+Mubazir: Muchas gracias! I thought I would never get rid of them. Your girlfriend doesn’t want to kiss you after you eat them, and neither does Chalupagong. #line:0d71176 
 <<BumpLoop>>
 ===
 title: guacamole_answer3
 ---
-Mubazir: Deja vu much?
+Mubazir: Deja vu much? #line:0bcf6a6 
 <<BumpLoop>>
 ===
 title: habaneros
 ---
-STEVE SEAGULL: WELCOME TO CHALUPAGONG!
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that? Our habaneros are so hot, they’ll warm you from your head to your burri-toes. 
-    -> Sounds good. I’m actually a bit chili right now. 
+STEVE SEAGULL: WELCOME TO CHALUPAGONG! #line:06464be 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:0d1a024 
+Hero: I’ll have a burrito with everything on it. #line:032083a 
+Mubazir: Want anything special with that? Our habaneros are so hot, they’ll warm you from your head to your burri-toes.  #line:06d9971 
+    -> Sounds good. I’m actually a bit chili right now.  #line:00baf3b 
         <<jump habaneros_answer1>>
-    -> Habaneros? How about some mild salsa?
+    -> Habaneros? How about some mild salsa? #line:096f835 
         <<jump habaneros_answer2>>
-    -> Uhh, what? Dude, you're weird.
+    -> Uhh, what? Dude, you're weird. #line:0725f72 
         <<jump habaneros_answer3>>
 ===
 title: habaneros_answer1
 ---
-Mubazir: Perfect! Here’s a nice warm cup. 
+Mubazir: Perfect! Here’s a nice warm cup.  #line:0f08d87 
 <<BumpLoop>>
 ===
 title: habaneros_answer2
 ---
-Mubazir: Salsa? You are trying to drown your food? 
+Mubazir: Salsa? You are trying to drown your food?  #line:06f146e 
 <<BumpLoop>>
 ===
 title: habaneros_answer3
 ---
-Mubazir: Maybe so, but Steve likes me. 
-STEVE SEAGULL: I hope you freeze to death!
-Mubazir: Cool it Steve! He knows it's wrong.
+Mubazir: Maybe so, but Steve likes me.  #line:01b586f 
+STEVE SEAGULL: I hope you freeze to death! #line:0928387 
+Mubazir: Cool it Steve! He knows it's wrong. #line:075c4e5 
 <<BumpLoop>>
 ===
 title: nachos
 ---
-Steve Seagull: WELCOME TO CHALUPAGONG!
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that? We got our special 2 for 1 relation-chip nachos today!
-    -> Well... I’m nacho average person! I can eat more than I look like. Slide 'em over.
+Steve Seagull: WELCOME TO CHALUPAGONG! #line:095653d 
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:004d3e8 
+Hero: I’ll have a burrito with everything on it. #line:066f33a 
+Mubazir: Want anything special with that? We got our special 2 for 1 relation-chip nachos today! #line:04fd38b 
+    -> Well... I’m nacho average person! I can eat more than I look like. Slide 'em over. #line:0ee44ef 
         <<jump nachos_answer1>>
-    -> Where did you get that from? A Haulmark card? Dude... stop.
+    -> Where did you get that from? A Haulmark card? Dude... stop. #line:011a6c1 
         <<jump nachos_answer2>>
-    -> I'll have a burrito with a side of fries.
+    -> I'll have a burrito with a side of fries. #line:0fc3361 
         <<jump nachos_answer3>>
 ===
 title: nachos_answer1
 ---
-Mubazir: You cheddar believe I will! Cheddar is better.
+Mubazir: You cheddar believe I will! Cheddar is better. #line:0311689 
 <<BumpLoop>>
 ===
 title: nachos_answer2
 ---
-Mubazir: Aw, come on. You don't gotta be mean.
+Mubazir: Aw, come on. You don't gotta be mean. #line:0efc950 
 <<BumpLoop>>
 ===
 title: nachos_answer3
 ---
-Mubazir: <i>Fries!?</i> Where do you think you are? McCrapnolds?
-Mubazir: I should spit in your burrito!
+Mubazir: <i>Fries!?</i> Where do you think you are? McCrapnolds? #line:02608bd 
+Mubazir: I should spit in your burrito! #line:0a15fe6 
 <<BumpLoop>>
 ===
 title: romaine
 ---
-Steve Seagull: WELCOME TO CHALUPAGONG!
+Steve Seagull: WELCOME TO CHALUPAGONG! #line:00c5328 
 <<testing_command>>
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order?
-Hero: I’ll have a burrito with everything on it.
-Mubazir: Want anything special with that?
-Mubazir: If you don’t like our food, you have the right to romaine silent.
-    -> Romaine calm, dude. I’ll take a side of rice.
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:0d19b31 
+Hero: I’ll have a burrito with everything on it. #line:013d526 
+Mubazir: Want anything special with that? #line:0e09175 
+Mubazir: If you don’t like our food, you have the right to romaine silent. #line:0a369bf 
+    -> Romaine calm, dude. I’ll take a side of rice. #line:0da7ea4 
         <<jump romaine_answer1>>
-    -> I'll wait to see if I like it.
+    -> I'll wait to see if I like it. #line:0746f27 
         <<jump romaine_answer2>>
-    -> This is a food truck! You're not the police!
+    -> This is a food truck! You're not the police! #line:0f6b472 
         <<jump romaine_answer3>>
 ===
 title: romaine_answer1
 ---
-Mubazir: Lettuce celebrate your wise choice.
+Mubazir: Lettuce celebrate your wise choice. #line:0b114f3 
 <<BumpLoop>>
 ===
 title: romaine_answer2
 ---
-Mubazir: Watch it, buddy.
+Mubazir: Watch it, buddy. #line:0c6a1d5 
 <<BumpLoop>>
 ===
 title: romaine_answer3
 ---
-Mubazir: Whatever.
+Mubazir: Whatever. #line:05ef783 
 <<BumpLoop>>
 ===

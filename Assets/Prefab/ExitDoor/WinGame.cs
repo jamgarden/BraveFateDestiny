@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class WinGame : MonoBehaviour
 {
@@ -20,5 +21,6 @@ public class WinGame : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         Debug.Log(other);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Cursor.lockState = CursorLockMode.None;
     }
 }
