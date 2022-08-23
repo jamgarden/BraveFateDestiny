@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StartLoop : MonoBehaviour
 {
+    public AudioManager MusicManager;
     public bool CG_Active = false;
     public float delayTimer = 5.0f;
 
@@ -27,6 +28,7 @@ public class StartLoop : MonoBehaviour
             Debug.Log("Beware the Chalupagong!");
             CG_Active = false;
             Chalupagong.SetActive(true);
+            MusicManager.swapToRUN();
             // 
         }
     }
@@ -41,5 +43,6 @@ public class StartLoop : MonoBehaviour
         Player.GetComponent<firstPersonControl>().canJump = true;
         // Set player rotation to true
         Player.GetComponent<MouseLook>().canTurn = true;
+        
     }
 }

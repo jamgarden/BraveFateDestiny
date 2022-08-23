@@ -37,7 +37,7 @@ public class firstPersonControl : MonoBehaviour
 
     void Start()
     {
-        // Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.None;
 
         //mouseLook = gameObject.GetComponent<MouseLook>();
         cc = gameObject.GetComponent<CharacterController>();

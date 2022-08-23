@@ -1,24 +1,24 @@
 ﻿title: start
 tags: 
 --- 
-Narrator: Hello world.
-Narrator: This is a test.
+Narrator: Hello world. #line:00c7a2c 
+Narrator: This is a test. #line:0e64ad8 
 ===
 title: starttwo
 ---
 <<Steve_talk>>
-Steve Seagull: WELCOME TO CHALUPAGONG!
+Steve Seagull: WELCOME TO CHALUPAGONG! #line:065f7fb 
 <<Mub_talk>>
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito!
+Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! #line:0031fd6 
 <<stop_talk>>
-Hero: Hey, can I get a burrito with everything on it?
+Hero: Hey, can I get a burrito with everything on it? #line:0b74b4b 
 <<Mub_talk>>
-Mubazir:  Sure, here ya go, and make sure you eat every last bite! It would be a shame to waste this tasty goodness.
+Mubazir:  Sure, here ya go, and make sure you eat every last bite! It would be a shame to waste this tasty goodness. #line:02b1648 
 <<stop_talk>>
-    -> Take the burrito...
-Hero: Uh... Okay?
-Hero: ...
-Hero: Oh man, this is so good, but I'm just too full. I can't finish it.
+    -> Take the burrito... #line:01c6632 
+Hero: Uh... Okay? #line:0945874 
+Hero: ... #line:0f39d57 
+Hero: Oh man, this is so good, but I'm just too full. I can't finish it. #line:0f4fd2d 
 ===
 // title: welcome
 // ---

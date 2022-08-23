@@ -12,9 +12,20 @@ ScriptedImporter:
   - {fileID: 6391573757903218779, guid: e56590937e9b3bf4f920fdc7158d85d8, type: 3}
   - {fileID: 6391573757903218779, guid: 67043615ed5c1374894087466f9ac135, type: 3}
   compileErrors: []
-  serializedDeclarations: []
+  serializedDeclarations:
+  - name: $looped
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 1
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: 67043615ed5c1374894087466f9ac135, type: 3}
   defaultLanguage: en-US
-  languagesToSourceAssets: []
+  languagesToSourceAssets:
+  - languageID: en
+    stringsFile: {fileID: 4900000, guid: 35e43a82955b4da41a925593a04d943c, type: 3}
+    assetsFolder: {instanceID: 0}
   useAddressableAssets: 0
   searchAllAssembliesForActions: 1
   assembliesToSearch: []
