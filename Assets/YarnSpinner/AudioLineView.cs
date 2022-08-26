@@ -13,10 +13,11 @@ public class AudioLineView : VoiceOverView
     {
 
         // dialogueLine.
-        Debug.Log(dialogueLine.CharacterName);
-        Debug.Log(dialogueLine.Text.ToString());
+        // Debug.Log(dialogueLine.CharacterName);
+        // Debug.Log(dialogueLine.Text.ToString());
         // Debug.Log(dialogueLine.)
         // VoiceOverView
+        // dialogueLine.
         base.RunLine(dialogueLine, onDialogueLineFinished);
 
     }
@@ -33,5 +34,5 @@ public class AudioLineView : VoiceOverView
         base.DismissLine(onDismissalComplete);
     }
 
-    public override void 
+    // public override void 
 }
