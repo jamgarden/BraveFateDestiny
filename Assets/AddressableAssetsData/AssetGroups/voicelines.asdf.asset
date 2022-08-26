@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: voicelines.asdf
+  m_EditorClassIdentifier: 
+  m_GroupName: voicelines.asdf
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 18afd9a765476d648b55b07d1919db9f
+  m_SerializeEntries:
+  - m_GUID: ce25498c57fa4fa498434c2d404d3aa5
+    m_Address: line_en-US_02bb4ed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dad41dc05464df44b85701c4b6b69ff1
+    m_Address: line_en-US_0397a13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a70722d8d080ed40994fa099fb2a00a
+    m_Address: line_en-US_01ecc2c
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f1490b25823f8f4880d70b013bce215
+    m_Address: line_en-US_059c18e
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf6abc0719d2b784296aca76dd49e1d1
+    m_Address: line_en-US_06b44f6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8b6d5f944f00cf44835bef05962e368
+    m_Address: line_en-US_012efc5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5316c0f37373ff841a6b9e2b5e518504
+    m_Address: line_en-US_048ac15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 050a7d02e12d3d54dae3c9ba9f51974e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8dacd06b50eb7c84d848160bdda4342d, type: 2}
+    - {fileID: 11400000, guid: cd769c9c9a64d894fa8ed60cec63f0d4, type: 2}

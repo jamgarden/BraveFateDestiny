@@ -1,6 +1,6 @@
 ﻿title: prelude
 ---
-<<declare $looped = 1 as number>>
+<<declare $looped = 0 as number>>
 <<jump gameplay_loop>>
 ===
 title: gameplay_loop
@@ -30,15 +30,16 @@ tags:
 ===
 title: jalepenons
 ---
+<<wait 0.1>>
 Steve Seagull: WELCOME TO CHALUPAGONG! #line:0397a13 
 Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:059c18e 
 Hero: I’ll have a burrito with everything on it. #line:02bb4ed 
-Mubazir: Want anything special with that? We have our special pickled Jalapeñons. #line:01ecc2c 
-    -> Jalapeñons sound great! #line:06b44f6 
+Mubazir: Want anything special with that? We have our special pickled Jalapeños. #line:01ecc2c 
+    -> Jalapeños sound great! #line:06b44f6 
         <<jump jalepenons_answer1>>
     -> Nah, this is perfect, thanks! I don’t like anything spicy. #line:012efc5 
         <<jump jalepenons_answer2>>
-    -> Jalapeñons suck! Slather it in that creamy white sauce. #line:048ac15 
+    -> Jalapeños suck! Slather it in that creamy white sauce. #line:048ac15 
         <<jump jalepenons_answer3>>
 ===
 title: jalepenons_answer1

@@ -16,17 +16,17 @@ ScriptedImporter:
   - name: $looped
     typeName: Number
     defaultValueBool: 0
-    defaultValueNumber: 1
+    defaultValueNumber: 0
     defaultValueString: 
     description: 
     isImplicit: 0
     sourceYarnAsset: {fileID: 6391573757903218779, guid: 67043615ed5c1374894087466f9ac135, type: 3}
   defaultLanguage: en-US
   languagesToSourceAssets:
-  - languageID: en
+  - languageID: en-US
     stringsFile: {fileID: 4900000, guid: 35e43a82955b4da41a925593a04d943c, type: 3}
-    assetsFolder: {instanceID: 0}
-  useAddressableAssets: 0
+    assetsFolder: {fileID: 102900000, guid: a7dfebae7adf19a4cb28550f22bc589b, type: 3}
+  useAddressableAssets: 1
   searchAllAssembliesForActions: 1
   assembliesToSearch: []
   ListOfFunctions:

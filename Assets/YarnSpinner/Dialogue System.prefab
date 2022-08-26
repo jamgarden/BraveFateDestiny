@@ -154,7 +154,7 @@ MonoBehaviour:
   _variableStorage: {fileID: 6136941595033669836}
   dialogueViews:
   - {fileID: 861014223771018383}
-  - {fileID: 5598481073405710715}
+  - {fileID: 861014223771018383}
   startNode: Start
   startAutomatically: 1
   runSelectedOptionAsLine: 0
@@ -381,17 +381,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6323935187928403879, guid: 638e885a48f1a46c29aaa1b64688b208, type: 3}
   m_PrefabInstance: {fileID: 1905846537180192448}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5598481073405710715 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6323935187928403899, guid: 638e885a48f1a46c29aaa1b64688b208, type: 3}
-  m_PrefabInstance: {fileID: 1905846537180192448}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ac0c40fc910845709d9cef7c876cb99, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &5733077457119435817
 PrefabInstance:
   m_ObjectHideFlags: 0
