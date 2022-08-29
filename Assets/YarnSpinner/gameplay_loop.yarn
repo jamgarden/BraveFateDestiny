@@ -12,7 +12,7 @@ tags:
 <<elseif $looped == 2>>
     <<jump chili>>
 <<elseif $looped == 3>>
-    <<jump horchata>>
+    <<jump beans>>
 <<elseif $looped == 4>>
     <<jump beans>>
 <<elseif $looped == 5>>
@@ -90,39 +90,7 @@ title: chili_answer3
 Mubazir: I..just bought this book. I thought it was good.  #line:01707e8 
 <<BumpLoop>>
 ===
-title: horchata
----
-Steve Seagull: WELCOME TO CHALUPAGONG! #line:0bc529c 
-Mubazir: Thanks, Steve. This is Chalupagong, home of the famous burrito! May I take your order? #line:0d60404 
-Hero: I’ll have a burrito with everything on it. #line:03bde4e 
-Mubazir: Want anything special with that? #line:08bb56e 
-Mubazir: Oh! Did you see what that lady was wearing? She had plenty of horchata! #line:0e5236d 
-    -> Yeah! A side of nachos. Extra cheese. #line:057efbc 
-        <<jump horchata_answer1>>
-    -> Ooh, I did! And I'm looking to take a sip. #line:04fdfee 
-        <<jump horchata_answer2>>
-    -> I’m allergic to cinnamon, I’ll take lemonade. #line:0527b74 
-        <<jump horchata_answer3>>
-===
-title: horchata_answer1
----
-Mubazir: Nachos, huh? Okay... fine. #line:0561f16 
-Steve Seagull: That choice is gonna come back to bite you in the– #line:0758200 
-Mubazir: Steve! Language! #line:0e8d0c4 
-Steve Seagull: SQUACK! Literally. #line:076a630 
-<<BumpLoop>>
-===
-title: horchata_answer2
----
-Mubazir: That’s my boy! Here, take one on me. And I’ll give you another freebie: #line:0891c2c 
-Mubazir: Never trust a lemon. #line:0592e02 
-<<BumpLoop>>
-===
-title: horchata_answer3
----
-Mubazir: Our famous "Wild Wild Zest" it is, then. #line:04655e4 
-<<BumpLoop>>
-===
+
 title: beans
 ---
 Steve Seagull: WELCOME TO CHALUPAGONG! #line:09db34c 
